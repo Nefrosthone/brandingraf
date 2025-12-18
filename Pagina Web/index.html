@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BrandinGraf | Agencia de Branding, Estrategia y Arquitectura Digital Premium</title>
+    <meta name="description" content="BrandinGraf es una agencia líder en la creación de identidades visuales, desarrollo web de alto rendimiento y consultoría estratégica digital.">
+    <meta name="keywords" content="Branding, UX/UI, Desarrollo Web, Estrategia Digital, Identidad Visual, Innovación, Agilidad, Sostenibilidad, Branding Inteligente">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="loading-state">
+
+    <div id="loader-wrapper" role="presentation">
+        <div class="loader-inner">
+            <div class="loader-circle"></div>
+            <span class="loader-text">BrandinGraf</span>
+        </div>
+    </div>
+
+    <div id="scroll-progress" role="progressbar" aria-label="Progreso de navegación"></div>
+
+    <header id="header" class="main-header">
+        <div class="header-container container">
+            <div class="logo">
+                <a href="#inicio" aria-label="Volver al inicio">BrandinGraf<span>.</span></a>
+            </div>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú de navegación">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </button>
+
+            <nav id="nav" class="nav-holder">
+                <ul class="nav-menu" id="main-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                        <span class="nav-indicator"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#valores" class="nav-link">Filosofía</a>
+                        <span class="nav-indicator"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                        <span class="nav-indicator"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nosotros" class="nav-link">Agencia</a>
+                        <span class="nav-indicator"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">Ayuda</a>
+                        <span class="nav-indicator"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-btn-link">
+                            <span class="btn-text">Empezar</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="inicio" class="hero-wrapper">
+            <div class="hero-visual">
+                <img src="images/fondo.jpg" alt="Ecosistema tecnológico BrandinGraf" class="hero-img">
+                <div class="hero-mask"></div>
+            </div>
+            <div class="hero-inner container">
+                <div class="hero-content-block">
+                    <div class="hero-badge reveal-item">
+                        <span class="dot"></span> 
+                        Digital Excellence 2025
+                    </div>
+                    <h1 class="hero-title reveal-text">
+                        Diseñamos la <span class="gradient-text">Arquitectura</span> Visual del Mañana.
+                    </h1>
+                    <p class="hero-desc reveal-item">
+                        Estrategia, estética etérea y tecnología de alto impacto unificadas en un ecosistema de marca 100% responsivo y escalable.
+                    </p>
+                    <div class="hero-cta reveal-item">
+                        <a href="#contacto" class="btn-primary">Consultoría Gratuita</a>
+                        <a href="#servicios" class="btn-outline">Nuestras Soluciones</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <div class="mouse-element">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="valores" class="values-section section-padding">
+            <div class="container">
+                <header class="section-header text-center">
+                    <span class="section-badge">Visión Estratégica</span>
+                    <h2 class="section-title">Cimentando el Éxito Digital</h2>
+                    <p class="section-subtitle">No creamos solo imágenes; construimos ventajas competitivas duraderas.</p>
+                </header>
+
+                <div class="values-dynamic-grid">
+                    <article class="v-card modal-trigger" data-modal="modal-agilidad">
+                        <div class="v-card-inner">
+                            <div class="v-image">
+                                <img src="images/agilidad.jpg" alt="Concepto de Agilidad">
+                                <div class="v-overlay"></div>
+                            </div>
+                            <div class="v-content">
+                                <span class="v-number">01</span>
+                                <h3>Agilidad</h3>
+                                <p>Capacidad de respuesta y adaptación en tiempo real.</p>
+                                <span class="v-btn">Descubrir +</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="v-card modal-trigger" data-modal="modal-innovacion">
+                        <div class="v-card-inner">
+                            <div class="v-image">
+                                <img src="images/Innovacion.jpg" alt="Concepto de Innovación">
+                                <div class="v-overlay"></div>
+                            </div>
+                            <div class="v-content">
+                                <span class="v-number">02</span>
+                                <h3>Innovación</h3>
+                                <p>Tecnologías de vanguardia para marcas disruptivas.</p>
+                                <span class="v-btn">Descubrir +</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="v-card modal-trigger" data-modal="modal-sostenibilidad">
+                        <div class="v-card-inner">
+                            <div class="v-image">
+                                <img src="images/sostenibilidad.jpg" alt="Concepto de Sostenibilidad">
+                                <div class="v-overlay"></div>
+                            </div>
+                            <div class="v-content">
+                                <span class="v-number">03</span>
+                                <h3>Sostenibilidad</h3>
+                                <p>Branding consciente para una presencia perdurable.</p>
+                                <span class="v-btn">Descubrir +</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="services-section section-padding bg-glass">
+            <div class="container">
+                <div class="grid-services-main">
+                    <div class="service-intro reveal-left">
+                        <span class="section-badge">Nuestros Servicios</span>
+                        <h2 class="section-title">Soluciones de <br><span class="gradient-text">Alto Rendimiento</span></h2>
+                        <p>Cada activo visual es una pieza de ingeniería diseñada para maximizar su Retorno de Inversión (ROI).</p>
+                        <ul class="feature-list">
+                            <li>Optimización SEO Integral</li>
+                            <li>Interfaces Mobile-First</li>
+                            <li>Arquitecturas de Marca Escalables</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-items-grid">
+                        <article class="s-card-premium reveal-item">
+                            <div class="s-card-img">
+                                <img src="images/creacion-de-logo.jpg" alt="Creación de Logotipo">
+                            </div>
+                            <div class="s-card-body">
+                                <h4>Branding Estratégico</h4>
+                                <p>Definición del ADN de marca, naming y semiótica visual de impacto.</p>
+                                <div class="s-tags">
+                                    <span>Naming</span><span>Logotipo</span><span>Manual</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="s-card-premium reveal-item">
+                            <div class="s-card-img">
+                                <img src="images/identidad visual.jpg" alt="Identidad Visual">
+                            </div>
+                            <div class="s-card-body">
+                                <h4>Identidad Visual</h4>
+                                <p>Ecosistemas gráficos consistentes para liderazgo profesional 360°.</p>
+                                <div class="s-tags">
+                                    <span>Papelería</span><span>Social Media</span><span>Assets</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="s-card-premium reveal-item">
+                            <div class="s-card-img">
+                                <img src="images/diseño-web.jpg" alt="Diseño Web UX UI">
+                            </div>
+                            <div class="s-card-body">
+                                <h4>Diseño UX/UI</h4>
+                                <p>Interfaces etéreas que priorizan la usabilidad y la conversión efectiva.</p>
+                                <div class="s-tags">
+                                    <span>Figma</span><span>Prototipado</span><span>UX Research</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="s-card-premium reveal-item">
+                            <div class="s-card-img">
+                                <img src="images/desarrollo-web.jpg" alt="Desarrollo Web">
+                            </div>
+                            <div class="s-card-body">
+                                <h4>Desarrollo Web</h4>
+                                <p>Código limpio y escalable bajo arquitecturas modernas de última generación.</p>
+                                <div class="s-tags">
+                                    <span>React</span><span>Next.js</span><span>Web Performance</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="s-card-premium reveal-item">
+                            <div class="s-card-img">
+                                <img src="images/ilustracion-digital.jpg" alt="Ilustración Digital">
+                            </div>
+                            <div class="s-card-body">
+                                <h4>Ilustración Digital</h4>
+                                <p>Activos visuales personalizados que dotan de alma a su marca digital.</p>
+                                <div class="s-tags">
+                                    <span>Vectores</span><span>Concept Art</span><span>Icons</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="about-section section-padding">
+            <div class="container">
+                <div class="about-flex-layout">
+                    <div class="about-visual reveal-left">
+                        <div class="about-img-frame">
+                            <img src="images/brandeable.jpg" alt="Brandeabilidad Digital">
+                            <div class="experience-card">
+                                <span class="exp-num">10+</span>
+                                <span class="exp-txt">Años de Innovación</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text reveal-right">
+                        <span class="section-badge">La Agencia</span>
+                        <h2 class="section-title">Expertos en <span class="highlight">Evolución</span> Digital</h2>
+                        <p class="p-highlight">En BrandinGraf, fusionamos la metodología del diseño clásico con la potencia del desarrollo web moderno.</p>
+                        <p>No creamos manuales estáticos; desarrollamos sistemas vivos capaces de adaptarse a cualquier tendencia o plataforma digital emergente.</p>
+                        
+                        <div class="counters-wrapper">
+                            <div class="counter-box">
+                                <div class="count-value"><span class="count" data-target="150">0</span>+</div>
+                                <div class="count-label">Marcas Exitosas</div>
+                            </div>
+                            <div class="counter-box">
+                                <div class="count-value"><span class="count" data-target="98">0</span>%</div>
+                                <div class="count-label">Tasa de Fidelidad</div>
+                            </div>
+                            <div class="counter-box">
+                                <div class="count-value"><span class="count" data-target="25">0</span>M</div>
+                                <div class="count-label">Alcance Digital</div>
+                            </div>
+                        </div>
+                        <div class="about-actions">
+                            <a href="#contacto" class="btn-arrow">Hable con un estratega →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section section-padding bg-dark">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Centro de Ayuda</span>
+                    <h2 class="section-title">Preguntas <span class="gradient-text">Frecuentes</span></h2>
+                </div>
+
+                <div class="faq-accordion-holder reveal-up">
+                    <div class="faq-accordion-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">¿Cómo iniciamos el proceso estratégico?</span>
+                            <div class="faq-plus-icon"><span></span><span></span></div>
+                        </button>
+                        <div class="faq-content">
+                            <div class="faq-content-inner">
+                                <p>Todo proyecto en BrandinGraf inicia con una fase de inmersión técnica. Realizamos una auditoría de su mercado actual y definimos metas comerciales claras para que el diseño sirva a un propósito de negocio real.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">¿El desarrollo web es 100% responsivo?</span>
+                            <div class="faq-plus-icon"><span></span><span></span></div>
+                        </button>
+                        <div class="faq-content">
+                            <div class="faq-content-inner">
+                                <p>Absolutamente. Utilizamos layouts fluidos basados en CSS Grid y Flexbox. Probamos cada interfaz en más de 20 resoluciones diferentes, desde relojes inteligentes hasta monitores 8K, garantizando una experiencia impecable.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">¿Ofrecen soporte post-lanzamiento?</span>
+                            <div class="faq-plus-icon"><span></span><span></span></div>
+                        </button>
+                        <div class="faq-content">
+                            <div class="faq-content-inner">
+                                <p>Sí. Una marca digital es un organismo vivo. Ofrecemos planes de mantenimiento técnico y consultoría estratégica continua para asegurar que su plataforma evolucione junto con las tendencias y la tecnología.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">¿Qué tecnologías utilizan en el desarrollo?</span>
+                            <div class="faq-plus-icon"><span></span><span></span></div>
+                        </button>
+                        <div class="faq-content">
+                            <div class="faq-content-inner">
+                                <p>Nos especializamos en stacks de alto rendimiento como Next.js, React, animaciones GSAP para fluidez visual y arquitecturas Serverless, garantizando velocidades de carga menores a 1.5 segundos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion-item">
+                        <button class="faq-trigger" aria-expanded="false">
+                            <span class="faq-question">¿Cómo se gestionan los derechos de autor?</span>
+                            <div class="faq-plus-icon"><span></span><span></span></div>
+                        </button>
+                        <div class="faq-content">
+                            <div class="faq-content-inner">
+                                <p>Tras la liquidación final del proyecto, el cliente recibe la propiedad intelectual absoluta de todos los activos originales, incluyendo archivos fuente vectoriales y licencias de código.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section section-padding">
+            <div class="container narrow">
+                <div class="section-header text-center">
+                    <h2 class="section-title">¿Listo para <span class="gradient-text">Escalar</span>?</h2>
+                    <p>Transforme su visión en una ventaja competitiva tecnológica. Envíenos su propuesta inicial.</p>
+                </div>
+                
+                <div class="form-wrapper reveal-up">
+                    <form id="contact-form" class="branding-form" novalidate>
+                        <div class="form-grid-row">
+                            <div class="field-wrap">
+                                <label for="form-name">Nombre Completo</label>
+                                <input type="text" id="form-name" name="name" placeholder="Ej. Carlos Mendoza" required>
+                                <span class="error-msg">Este campo es obligatorio</span>
+                            </div>
+                            <div class="field-wrap">
+                                <label for="form-email">Email Corporativo</label>
+                                <input type="email" id="form-email" name="email" placeholder="carlos@empresa.com" required>
+                                <span class="error-msg">Ingrese un email válido</span>
+                            </div>
+                        </div>
+                        <div class="field-wrap">
+                            <label for="form-service">Servicio de Interés</label>
+                            <div class="select-custom">
+                                <select id="form-service" name="service" required>
+                                    <option value="" disabled selected>Seleccione una opción</option>
+                                    <option value="branding">Branding & Estrategia Integral</option>
+                                    <option value="web">Desarrollo Web & E-commerce</option>
+                                    <option value="uxui">Diseño de Producto UX/UI</option>
+                                    <option value="ilustracion">Ilustración & Activos Digitales</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field-wrap">
+                            <label for="form-message">Descripción del Proyecto</label>
+                            <textarea id="form-message" name="message" rows="6" placeholder="Háblenos sobre sus metas y el alcance del proyecto..."></textarea>
+                        </div>
+                        <div class="form-footer">
+                            <p class="privacy-note">Al enviar, acepta nuestra política de tratamiento de datos.</p>
+                            <button type="submit" class="btn-submit-main">
+                                <span class="btn-txt">Enviar Solicitud</span>
+                                <span class="btn-loader"></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top-grid">
+                <div class="f-col-brand">
+                    <div class="f-logo">BrandinGraf<span>.</span></div>
+                    <p class="f-bio">Elevamos marcas al siguiente nivel digital mediante la fusión de diseño estratégico y tecnología de vanguardia.</p>
+                    <div class="f-social-links">
+                        <a href="#" aria-label="LinkedIn" class="social-icon">LN</a>
+                        <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+                        <a href="#" aria-label="Behance" class="social-icon">BE</a>
+                        <a href="#" aria-label="Twitter" class="social-icon">TW</a>
+                    </div>
+                </div>
+                
+                <div class="f-col-nav">
+                    <h4>Mapa del Sitio</h4>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#valores">Filosofía</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#nosotros">Agencia</a></li>
+                            <li><a href="#faq">Ayuda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="f-col-data">
+                    <h4>Información de Contacto</h4>
+                    <ul class="contact-footer-list">
+                        <li>
+                            <span class="data-label">Email General</span>
+                            <a href="mailto:hello@brandingraf.com" class="data-value">hello@brandingraf.com</a>
+                        </li>
+                        <li>
+                            <span class="data-label">Línea Directa</span>
+                            <a href="tel:+51987654321" class="data-value">+51 987 654 321</a>
+                        </li>
+                        <li>
+                            <span class="data-label">Hub Tecnológico</span>
+                            <span class="data-value">Silicon Center, Lima, Perú</span>
+                        </li>
+                        <li>
+                            <span class="data-label">Disponibilidad</span>
+                            <span class="data-value">Lun - Vie | 09:00 - 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="f-col-newsletter">
+                    <h4>Insight Mensual</h4>
+                    <p>Reciba tendencias de branding y tech directo en su inbox.</p>
+                    <form class="footer-news-form">
+                        <input type="email" placeholder="Su email" required>
+                        <button type="submit" aria-label="Suscribirse">✓</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom-bar">
+                <div class="copy-text">
+                    &copy; 2025 BrandinGraf Agency. Todos los derechos reservados.
+                </div>
+                <div class="legal-links">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                    <a href="#">Cookies</a>
+                </div>
+                <a href="#top" class="top-jump" aria-label="Ir arriba">↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-system" id="modal-overlay" aria-hidden="true" role="dialog">
+        <div class="modal-content-wrapper" id="modal-agilidad">
+            <button class="modal-closer" aria-label="Cerrar ventana">&times;</button>
+            <div class="modal-body-content">
+                <header class="modal-header">
+                    <span class="modal-pre">Valores BrandinGraf</span>
+                    <h3>Agilidad Estratégica</h3>
+                </header>
+                <div class="modal-text-flow">
+                    <p>Entendemos la agilidad como la capacidad de evolucionar junto al usuario. No creamos manuales estáticos, sino ecosistemas de marca vivos.</p>
+                    <p>Gracias a nuestra integración tecnológica, desarrollamos soluciones creativas capaces de adaptarse a cualquier plataforma o cambio de tendencia, asegurando que la comunicación de tu empresa nunca quede obsoleta.</p>
+                    <div class="modal-features">
+                        <div class="m-feat">Iteración Rápida</div>
+                        <div class="m-feat">Escalabilidad de Assets</div>
+                        <div class="m-feat">Tecnología Adaptativa</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-content-wrapper" id="modal-innovacion">
+            <button class="modal-closer" aria-label="Cerrar ventana">&times;</button>
+            <div class="modal-body-content">
+                <header class="modal-header">
+                    <span class="modal-pre">Valores BrandinGraf</span>
+                    <h3>Innovación Disruptiva</h3>
+                </header>
+                <div class="modal-text-flow">
+                    <p>Para nosotros, innovar es convertir la curiosidad en resultados. Fusionamos creatividad de alto nivel con tecnología de punta para construir marcas inteligentes, ágiles y profundamente humanas.</p>
+                    <p>No solo seguimos tendencias; diseñamos lo que viene después. Aplicamos inteligencia artificial y analítica avanzada para predecir comportamientos y dotar a su marca de una ventaja tecnológica inalcanzable.</p>
+                    <div class="modal-features">
+                        <div class="m-feat">I+D Visual</div>
+                        <div class="m-feat">Tech Stacks Modernos</div>
+                        <div class="m-feat">Creatividad Data-Driven</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-content-wrapper" id="modal-sostenibilidad">
+            <button class="modal-closer" aria-label="Cerrar ventana">&times;</button>
+            <div class="modal-body-content">
+                <header class="modal-header">
+                    <span class="modal-pre">Valores BrandinGraf</span>
+                    <h3>Sostenibilidad Inteligente</h3>
+                </header>
+                <div class="modal-text-flow">
+                    <p>Para nosotros, la sostenibilidad es el eje de un branding inteligente. No diseñamos solo para el hoy, sino para que las marcas de nuestros clientes prosperen en un entorno consciente.</p>
+                    <p>Entendemos la sostenibilidad como la capacidad de crear identidades honestas que respeten el equilibrio social y ambiental, transformando el compromiso ético en una ventaja competitiva real y duradera.</p>
+                    <div class="modal-features">
+                        <div class="m-feat">Identidades Longevas</div>
+                        <div class="m-feat">Ética de Diseño</div>
+                        <div class="m-feat">Impacto Positivo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
